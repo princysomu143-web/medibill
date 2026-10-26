@@ -539,11 +539,11 @@ if st.session_state.active_tab == "billing":
 
             c1, c2, c3 = st.columns(3)
             with c1:
-                cust_name = st.text_input("Customer Name *", placeholder="e.g. Alex Rivera", key="in_cust_name")
+                cust_name = st.text_input("Customer Name *", placeholder="e.g. Somesh", key="in_cust_name")
             with c2:
-                cust_phone = st.text_input("Phone Number *", placeholder="e.g. 555-0199", key="in_cust_phone")
+                cust_phone = st.text_input("Phone Number *", placeholder="e.g. 9999999999", key="in_cust_phone")
             with c3:
-                cust_age_str = st.text_input("Customer Age *", placeholder="e.g. 32", key="in_cust_age")
+                cust_age_str = st.text_input("Customer Age *", placeholder="e.g. 20", key="in_cust_age")
 
             doc_name = ""
             rx_no = ""
