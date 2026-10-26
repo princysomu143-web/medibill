@@ -929,7 +929,7 @@ elif st.session_state.active_tab == "inventory":
                 fc1, fc2, fc3, fc4 = st.columns(4)
                 with fc1:
                     f_name = st.text_input("Medicine Name *", placeholder="e.g. Ibuprofen 400mg")
-                    f_price = st.number_input("Unit Price ($) *", min_value=0.10, value=6.50, step=0.50)
+                    f_price = st.number_input("Unit Price (Rs) *", min_value=0.10, value=6.50, step=0.50)
                 with fc2:
                     f_sku = st.text_input("SKU Code", placeholder="e.g. IBU-400")
                     f_stock = st.number_input("Initial Stock *", min_value=0, value=40, step=1)
